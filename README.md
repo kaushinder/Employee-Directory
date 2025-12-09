@@ -5,8 +5,8 @@ Allows adding, updating, deleting and viewing employees, with search, department
 
 
 ## Folder Structure:
-
-```Employee-Directory/
+```
+Employee-Directory/
 ├── backend/
 │   ├── config/
 │   │   └── db.js
