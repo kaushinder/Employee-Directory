@@ -4,9 +4,9 @@ A full-stack **Employee Directory** application built with the **MERN** stack (M
 Allows adding, updating, deleting and viewing employees, with search, department filtering and image upload.
 
 
-Folder Structure:
+## Folder Structure:
 
-Employee-Directory/
+```Employee-Directory/
 ├── backend/
 │   ├── config/
 │   │   └── db.js
@@ -40,7 +40,7 @@ Employee-Directory/
 ├── .gitignore
 ├── package.json
 └── package-lock.json
-
+```
 
 
 About This Project:
