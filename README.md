@@ -6,41 +6,42 @@ Allows adding, updating, deleting and viewing employees, with search, department
 
 Folder Structure:
 
-# Frontend:
-frontend/
-├── dist/
-├── node_modules/
-├── public/
-├── src/
-│ ├── components/
-│ │ ├── EmployeeCard.jsx
-│ │ └── Navbar.jsx
-│ ├── pages/
-│ │ ├── CreatePage.jsx
-│ │ ├── EmployeeDetailPage.jsx
-│ │ └── HomePage.jsx
-│ ├── store/
-│ │ └── employee.js
-│ ├── App.jsx
-│ └── main.jsx
-├── eslint.config.js
-├── index.html
-├── package-lock.json
+Employee-Directory/
+├── backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   └── employee.controller.js
+│   ├── models/
+│   │   └── employee.model.js
+│   ├── routes/
+│   │   └── employee.route.js
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── EmployeeCard.jsx
+│   │   │   └── Navbar.jsx
+│   │   ├── pages/
+│   │   │   ├── CreatePage.jsx
+│   │   │   ├── EmployeeDetailPage.jsx
+│   │   │   └── HomePage.jsx
+│   │   ├── store/
+│   │   │   └── employee.js
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   └── vite.config.js
+│
+├── .gitignore
 ├── package.json
-├── README.md
-└── vite.config.js
+└── package-lock.json
 
-### backend:
-backend/
-├── config/
-│ └── db.js # MongoDB connection setup
-├── controllers/
-│ └── employee.controller.js
-├── models/
-│ └── employee.model.js
-├── routes/
-│ └── employee.route.js
-└── server.js # Express entry point
+
 
 About This Project:
 
